@@ -1,205 +1,205 @@
 {
-    "success": true,
-    "data": {
-        "websiteId": "39bd2b51039b9e80",
-        "productType": "boysday",
-        "configVersion": 1,
-        "character": {
-            "characterId": "pink-bunny",
-            "faceMode": "photo",
-            "name": "Em",
-            "recipient": "anh",
-            "photo": "/19-11cuamt/external-media/img-mwm5gv6m-a70277fb.webp",
-            "zoom": 1.5187513055310566,
-            "rotation": 0,
-            "x": -9,
-            "y": 17,
-            "cutout": true,
-            "headAnchor": {
-                "x": 0.21484584817858132,
-                "y": 0.7561807961299502,
-                "ratio": 0.8347701149425287,
-                "faceWidth": 0.5205834754953592
-            }
-        },
-        "greeting": "Chằm ưi, đi campuchia nhéeeeee",
-        "dialogue": {
-            "locked": "Biên giới cấm xuất ngoại, mình lén vượt biên đi",
-            "gameIntro": "Chạm vào 2 mt giống nhau nhé ♡",
-            "mismatch": "Hai ảnh phải giống nhau cơ ♡",
-            "progress": "Gút chọp, ghép tiếp nào ♡",
-            "almost": "Sắp mở được cửa rồi đó chằm ưi ♡",
-            "select": "Chạm thêm một em mt giống vừa chọn nhé.",
-            "drag": "Thả mt vào một mt giống y nhau nhó ♡",
-            "hint": "Ghép hai ảnh đang sáng lên này nho chằm húi ♡",
-            "won": "Chằm nhỏ nào giỏi dữ bâyyyy ơiii, chạm vào chìa khóa huiii"
-        },
-        "enableSpace": true,
-        "enableMergeGame": true,
-        "mergeImages": [
-            "/19-11cuamt/external-media/img-mwm5guvz-ee60ef67.webp",
-            "/19-11cuamt/external-media/img-mwm5guq9-aab9ade7.webp",
-            "/19-11cuamt/external-media/img-mwm5gw3g-2b74f378.webp"
-        ],
-        "memories": [
-            {
-                "id": "5a69e812-2672-4c7d-9f38-098a317d6240",
-                "image": "/19-11cuamt/external-media/img-mwm5gw6d-d1478231.webp",
-                "title": "",
-                "wish": "",
-                "frame": false
-            },
-            {
-                "id": "563e3467-40a9-4875-90d5-51dab832c090",
-                "image": "/19-11cuamt/external-media/img-mwm5gwbg-ec5910e3.webp",
-                "title": "",
-                "wish": "",
-                "frame": false
-            },
-            {
-                "id": "edd49067-c72c-4f61-b805-d6bf1009c31d",
-                "image": "/19-11cuamt/external-media/img-mwm5gx8t-fc33c434.webp",
-                "title": "",
-                "wish": "",
-                "frame": false
-            },
-            {
-                "id": "bb943498-60a0-483b-af64-4752122e1553",
-                "image": "/19-11cuamt/external-media/img-mwm5gxa2-6a0c7deb.webp",
-                "title": "",
-                "wish": "",
-                "frame": false
-            },
-            {
-                "id": "8fc40ffb-092c-4131-85b4-074703f0d751",
-                "image": "/19-11cuamt/external-media/img-mwm5gxfc-6619300c.webp",
-                "title": "",
-                "wish": "",
-                "frame": false
-            },
-            {
-                "id": "3184671c-c097-4ec8-ba65-d21edf9ba552",
-                "image": "/19-11cuamt/external-media/img-mwm5gya8-9cd1e95e.webp",
-                "title": "",
-                "wish": "",
-                "frame": false
-            },
-            {
-                "id": "780d196b-59b7-4d4f-9cff-89e40ccb0741",
-                "image": "/19-11cuamt/external-media/img-mwm5gybd-71db5ee8.webp",
-                "title": "",
-                "wish": "",
-                "frame": false
-            },
-            {
-                "id": "e96661cb-8f6d-426a-b84f-8baab39e7d05",
-                "image": "/19-11cuamt/external-media/img-mwm5gyjx-0793a7d4.webp",
-                "title": "",
-                "wish": "",
-                "frame": false
-            },
-            {
-                "id": "9cce67ad-9dd5-4500-990f-43665daa72aa",
-                "image": "/19-11cuamt/external-media/img-mwm5gzks-a22b5e2c.webp",
-                "title": "",
-                "wish": "",
-                "frame": false
-            },
-            {
-                "id": "d0ab0080-2aee-4320-860e-ca0d0762dc67",
-                "image": "/19-11cuamt/external-media/img-mwm5gznh-d9cde02a.webp",
-                "title": "",
-                "wish": "",
-                "frame": false
-            }
-        ],
-        "wishes": [
-            "em lun ở đây mò",
-            "em mt sẽ bảo vệ ebe của iemmm",
-            "iu chằmmmm",
-            "bún cé có chuỵn gì méc em hơm liền nghenn chua",
-            "mụt chút thưn gửi chằm",
-            "chằm thíc hemm dọ",
-            "nếu thíc thì nhớ hun em mt 1 mín",
-            "luv diuuuuuu",
-            "chụt chụt",
-            "chai đẹp hút nghe rõ trả lờiiiii"
-        ],
-        "enableBouquet": false,
-        "bouquetImages": [],
-        "bouquetCutouts": [],
-        "enableLetter": true,
-        "letter": {
-            "text": "Hế lô bạn hiền, em là vợ hiền - anh dữ lắm =))))))\nHom biết đây là lá thư thứ mấy ha. Dặn chằm trước 1 tẹo, chằm thấy thíc cái nì thì mauuu chóng cap nhẹ màn hình lưu về làm kỉ niệm với tui nhoooo. Có khi một thời gian nữa, nó bannnn lun cái này của iem vợ, là mất đóaaaa.\nNgày gì sắp tới nhỉ, chồng nhỉ. Em nhớ câu này mthao từng hỏi anh qua từng năm cơ, 2 năm trước anh chưa biết nhưng mè giờ có em vợ nên chắc bít cí đỉnh rùiiii. Em vợ mong cứ mỗi dịp 19/11 lại được hỏi chằm típpp như dị >3\nEm vợ đã lựa 1 thiểu số những bức seo phì của chúng mìn để tạo \"triễn lãm nghệ thuật\" cho chằm xem, cũng để tinh tinh cho chằm một cí điều. Có thể em ở xa chằm quá, nhiều lúc chằm cần không thể ở cạnh nắm tay hay động viên chằm bằng những cái ôm từ em được. Nhưng em luôn muốn chằm biết, chắc chắc dù có chuyện gì, bên cạnh anh vẫn có em, không thể ở cạnh về mặt địa lý, nhưng trái tim và tình yêu của em vẫn ở cạnh chằm.\nVì thế á, có chuyện gì chằm cũng phải nói với em đóooo\nHôm nay, ngày 19/11, chằm đang như thế nào ạ, có ai tặng quà cho chằm nữa hemm :((((\nHơn hết là chằm có nhớ em mt húi của chằm hemmm đóaaaaaa. Gừ gừ.....",
-            "photo": "/19-11cuamt/external-media/img-mwm5h2xh-5e706d5d.webp",
-            "signature": "",
-            "envelope": {
-                "topLine": "Dành tặng bạn",
-                "headline": "19/11",
-                "bottomLine": "Một chút thương ♡"
-            }
-        },
-        "spaceColor": "#111329",
-        "bgMusic": "/19-11cuamt/external-media/tiktok-7633609765188340999-8e6b95324556.mp3",
-        "autoDrift": true,
-        "decorations": true,
-        "decorationIds": [
-            "sticker-0",
-            "sticker-1",
-            "sticker-2",
-            "sticker-3",
-            "sticker-4",
-            "sticker-5",
-            "sticker-6",
-            "sticker-7",
-            "sticker-8",
-            "sticker-9",
-            "sticker-10",
-            "sticker-11",
-            "sticker-12",
-            "sticker-13",
-            "sticker-14",
-            "sticker-15",
-            "sticker-16",
-            "sticker-17",
-            "sticker-18"
-        ],
-        "customDecorations": [
-            {
-                "id": "1cc7cbbe-3fd4-4900-a070-015eb0f12b47",
-                "image": "/19-11cuamt/external-media/img-mwm5gzny-869ba691.webp"
-            },
-            {
-                "id": "e8dc8648-0532-43f6-bf0f-d0a2bd9f4ad9",
-                "image": "/19-11cuamt/external-media/img-mwm5h0m2-f256ee04.webp"
-            },
-            {
-                "id": "594b93b5-e431-4ec9-afde-d9671e1f641f",
-                "image": "/19-11cuamt/external-media/img-mwm5h0rk-a8136bf6.webp"
-            },
-            {
-                "id": "1d1860f6-fccd-4715-a641-c838e0b79984",
-                "image": "/19-11cuamt/external-media/img-mwm5h0ru-996b8306.webp"
-            },
-            {
-                "id": "91f763f7-b71e-481b-808d-427a1f310906",
-                "image": "/19-11cuamt/external-media/img-mwm5h1pl-0cec1539.webp"
-            },
-            {
-                "id": "99bf86ae-3faa-49b5-8ed3-f70aa20e93f3",
-                "image": "/19-11cuamt/external-media/img-mwm5h1ur-83759cee.webp"
-            },
-            {
-                "id": "b90dfd2e-ef61-4dce-84ea-23c70c7b30f3",
-                "image": "/19-11cuamt/external-media/img-mwm5h1ya-d7bed5f6.webp"
-            },
-            {
-                "id": "dc17fdb9-af0d-4801-92c7-540a470102e2",
-                "image": "/19-11cuamt/external-media/img-mwm5h2td-49d97f3c.webp"
-            }
-        ],
-        "expiresAt": "2026-12-18T13:21:38.494Z",
-        "createdAt": "2026-11-18T13:21:37.915Z",
-        "showWatermark": false
-    }
+  "success": true,
+  "data": {
+    "websiteId": "39bd2b51039b9e80",
+    "productType": "boysday",
+    "configVersion": 1,
+    "character": {
+      "characterId": "pink-bunny",
+      "faceMode": "photo",
+      "name": "Em",
+      "recipient": "anh",
+      "photo": "./external-media/img-mwm5gv6m-a70277fb.webp",
+      "zoom": 1.5187513055310566,
+      "rotation": 0,
+      "x": -9,
+      "y": 17,
+      "cutout": true,
+      "headAnchor": {
+        "x": 0.21484584817858132,
+        "y": 0.7561807961299502,
+        "ratio": 0.8347701149425287,
+        "faceWidth": 0.5205834754953592
+      }
+    },
+    "greeting": "Chằm ưi, đi campuchia nhéeeeee",
+    "dialogue": {
+      "locked": "Biên giới cấm xuất ngoại, mình lén vượt biên đi",
+      "gameIntro": "Chạm vào 2 mt giống nhau nhé ♡",
+      "mismatch": "Hai ảnh phải giống nhau cơ ♡",
+      "progress": "Gút chọp, ghép tiếp nào ♡",
+      "almost": "Sắp mở được cửa rồi đó chằm ưi ♡",
+      "select": "Chạm thêm một em mt giống vừa chọn nhé.",
+      "drag": "Thả mt vào một mt giống y nhau nhó ♡",
+      "hint": "Ghép hai ảnh đang sáng lên này nho chằm húi ♡",
+      "won": "Chằm nhỏ nào giỏi dữ bâyyyy ơiii, chạm vào chìa khóa huiii"
+    },
+    "enableSpace": true,
+    "enableMergeGame": true,
+    "mergeImages": [
+      "./external-media/img-mwm5guvz-ee60ef67.webp",
+      "./external-media/img-mwm5guq9-aab9ade7.webp",
+      "./external-media/img-mwm5gw3g-2b74f378.webp"
+    ],
+    "memories": [
+      {
+        "id": "5a69e812-2672-4c7d-9f38-098a317d6240",
+        "image": "./external-media/img-mwm5gw6d-d1478231.webp",
+        "title": "",
+        "wish": "",
+        "frame": false
+      },
+      {
+        "id": "563e3467-40a9-4875-90d5-51dab832c090",
+        "image": "./external-media/img-mwm5gwbg-ec5910e3.webp",
+        "title": "",
+        "wish": "",
+        "frame": false
+      },
+      {
+        "id": "edd49067-c72c-4f61-b805-d6bf1009c31d",
+        "image": "./external-media/img-mwm5gx8t-fc33c434.webp",
+        "title": "",
+        "wish": "",
+        "frame": false
+      },
+      {
+        "id": "bb943498-60a0-483b-af64-4752122e1553",
+        "image": "./external-media/img-mwm5gxa2-6a0c7deb.webp",
+        "title": "",
+        "wish": "",
+        "frame": false
+      },
+      {
+        "id": "8fc40ffb-092c-4131-85b4-074703f0d751",
+        "image": "./external-media/img-mwm5gxfc-6619300c.webp",
+        "title": "",
+        "wish": "",
+        "frame": false
+      },
+      {
+        "id": "3184671c-c097-4ec8-ba65-d21edf9ba552",
+        "image": "./external-media/img-mwm5gya8-9cd1e95e.webp",
+        "title": "",
+        "wish": "",
+        "frame": false
+      },
+      {
+        "id": "780d196b-59b7-4d4f-9cff-89e40ccb0741",
+        "image": "./external-media/img-mwm5gybd-71db5ee8.webp",
+        "title": "",
+        "wish": "",
+        "frame": false
+      },
+      {
+        "id": "e96661cb-8f6d-426a-b84f-8baab39e7d05",
+        "image": "./external-media/img-mwm5gyjx-0793a7d4.webp",
+        "title": "",
+        "wish": "",
+        "frame": false
+      },
+      {
+        "id": "9cce67ad-9dd5-4500-990f-43665daa72aa",
+        "image": "./external-media/img-mwm5gzks-a22b5e2c.webp",
+        "title": "",
+        "wish": "",
+        "frame": false
+      },
+      {
+        "id": "d0ab0080-2aee-4320-860e-ca0d0762dc67",
+        "image": "./external-media/img-mwm5gznh-d9cde02a.webp",
+        "title": "",
+        "wish": "",
+        "frame": false
+      }
+    ],
+    "wishes": [
+      "em lun ở đây mò",
+      "em mt sẽ bảo vệ ebe của iemmm",
+      "iu chằmmmm",
+      "bún cé có chuỵn gì méc em hơm liền nghenn chua",
+      "mụt chút thưn gửi chằm",
+      "chằm thíc hemm dọ",
+      "nếu thíc thì nhớ hun em mt 1 mín",
+      "luv diuuuuuu",
+      "chụt chụt",
+      "chai đẹp hút nghe rõ trả lờiiiii"
+    ],
+    "enableBouquet": false,
+    "bouquetImages": [],
+    "bouquetCutouts": [],
+    "enableLetter": true,
+    "letter": {
+      "text": "Hế lô bạn hiền, em là vợ hiền - anh dữ lắm =))))))\nHom biết đây là lá thư thứ mấy ha. Dặn chằm trước 1 tẹo, chằm thấy thíc cái nì thì mauuu chóng cap nhẹ màn hình lưu về làm kỉ niệm với tui nhoooo. Có khi một thời gian nữa, nó bannnn lun cái này của iem vợ, là mất đóaaaa.\nNgày gì sắp tới nhỉ, chồng nhỉ. Em nhớ câu này mthao từng hỏi anh qua từng năm cơ, 2 năm trước anh chưa biết nhưng mè giờ có em vợ nên chắc bít cí đỉnh rùiiii. Em vợ mong cứ mỗi dịp 19/11 lại được hỏi chằm típpp như dị >3\nEm vợ đã lựa 1 thiểu số những bức seo phì của chúng mìn để tạo \"triễn lãm nghệ thuật\" cho chằm xem, cũng để tinh tinh cho chằm một cí điều. Có thể em ở xa chằm quá, nhiều lúc chằm cần không thể ở cạnh nắm tay hay động viên chằm bằng những cái ôm từ em được. Nhưng em luôn muốn chằm biết, chắc chắc dù có chuyện gì, bên cạnh anh vẫn có em, không thể ở cạnh về mặt địa lý, nhưng trái tim và tình yêu của em vẫn ở cạnh chằm.\nVì thế á, có chuyện gì chằm cũng phải nói với em đóooo\nHôm nay, ngày 19/11, chằm đang như thế nào ạ, có ai tặng quà cho chằm nữa hemm :((((\nHơn hết là chằm có nhớ em mt húi của chằm hemmm đóaaaaaa. Gừ gừ.....",
+      "photo": "./external-media/img-mwm5h2xh-5e706d5d.webp",
+      "signature": "",
+      "envelope": {
+        "topLine": "Dành tặng bạn",
+        "headline": "19/11",
+        "bottomLine": "Một chút thương ♡"
+      }
+    },
+    "spaceColor": "#111329",
+    "bgMusic": "./external-media/tiktok-7633609765188340999-8e6b95324556.mp3",
+    "autoDrift": true,
+    "decorations": true,
+    "decorationIds": [
+      "sticker-0",
+      "sticker-1",
+      "sticker-2",
+      "sticker-3",
+      "sticker-4",
+      "sticker-5",
+      "sticker-6",
+      "sticker-7",
+      "sticker-8",
+      "sticker-9",
+      "sticker-10",
+      "sticker-11",
+      "sticker-12",
+      "sticker-13",
+      "sticker-14",
+      "sticker-15",
+      "sticker-16",
+      "sticker-17",
+      "sticker-18"
+    ],
+    "customDecorations": [
+      {
+        "id": "1cc7cbbe-3fd4-4900-a070-015eb0f12b47",
+        "image": "./external-media/img-mwm5gzny-869ba691.webp"
+      },
+      {
+        "id": "e8dc8648-0532-43f6-bf0f-d0a2bd9f4ad9",
+        "image": "./external-media/img-mwm5h0m2-f256ee04.webp"
+      },
+      {
+        "id": "594b93b5-e431-4ec9-afde-d9671e1f641f",
+        "image": "./external-media/img-mwm5h0rk-a8136bf6.webp"
+      },
+      {
+        "id": "1d1860f6-fccd-4715-a641-c838e0b79984",
+        "image": "./external-media/img-mwm5h0ru-996b8306.webp"
+      },
+      {
+        "id": "91f763f7-b71e-481b-808d-427a1f310906",
+        "image": "./external-media/img-mwm5h1pl-0cec1539.webp"
+      },
+      {
+        "id": "99bf86ae-3faa-49b5-8ed3-f70aa20e93f3",
+        "image": "./external-media/img-mwm5h1ur-83759cee.webp"
+      },
+      {
+        "id": "b90dfd2e-ef61-4dce-84ea-23c70c7b30f3",
+        "image": "./external-media/img-mwm5h1ya-d7bed5f6.webp"
+      },
+      {
+        "id": "dc17fdb9-af0d-4801-92c7-540a470102e2",
+        "image": "./external-media/img-mwm5h2td-49d97f3c.webp"
+      }
+    ],
+    "expiresAt": "2026-12-18T13:21:38.494Z",
+    "createdAt": "2026-11-18T13:21:37.915Z",
+    "showWatermark": false
+  }
 }

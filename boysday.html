@@ -1,76 +1,51 @@
 <!doctype html>
 <html lang="vi">
 <head>
-    <script>
-      // Chặn lỗi 404 khi web tự đổi URL
-      const _origPush = window.history.pushState;
-      window.history.pushState = function(state, title, url) {
-          if (typeof url === 'string' && url.startsWith('/')) url = '/19-11cuamt' + url;
-          return _origPush.call(this, state, title, url);
-      };
-      const _origReplace = window.history.replaceState;
-      window.history.replaceState = function(state, title, url) {
-          if (typeof url === 'string' && url.startsWith('/')) url = '/19-11cuamt' + url;
-          return _origReplace.call(this, state, title, url);
-      };
+  <script>
+    // 1. Chặn hoàn toàn việc tự ý thay đổi URL làm văng khỏi repo
+    const _origPush = window.history.pushState;
+    window.history.pushState = function(state, title, url) {
+      console.log('Blocked pushState:', url);
+    };
+    const _origReplace = window.history.replaceState;
+    window.history.replaceState = function(state, title, url) {
+      console.log('Blocked replaceState:', url);
+    };
 
-      // Đọc đúng file data tuyệt đối
-      const _origFetch = window.fetch;
-      window.fetch = async function(resource, config) {
-        const urlStr = typeof resource === 'string' ? resource : resource.url;
-        if (urlStr.includes('/api/') || urlStr.includes('dlove.vn')) {
-          return _origFetch('/19-11cuamt/mock-data.json');
-        }
-        return _origFetch(resource, config);
-      };
-    </script>
-          
+    // 2. Ép đọc đúng dữ liệu cục bộ thay vì gọi lên server dlove
+    const _origFetch = window.fetch;
+    window.fetch = async function(resource, config) {
+      const urlStr = typeof resource === 'string' ? resource : resource.url;
+      if (urlStr.includes('/api/') || urlStr.includes('dlove.vn')) {
+        return _origFetch('./mock-data.json'); // Bắt buộc đọc file JSON cùng thư mục
+      }
+      return _origFetch(resource, config);
+    };
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#f9efea" />
   <title>DLove · Món quà nhỏ</title>
-  <meta name="description" content="Một món quà nhỏ dành riêng cho bạn." />
-  <link rel="icon" href="/19-11cuamt/assets/icons/heart.svg" type="image/svg+xml" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="DLove" />
-  <meta property="og:title" content="DLove · Món quà nhỏ" />
-  <meta property="og:description" content="Một món quà nhỏ dành riêng cho bạn." />
-  <meta property="og:image" content="https://i.dlove.vn/assets/ui/dlove-gift-logo.png" />
-  <meta property="og:image:secure_url" content="https://i.dlove.vn/assets/ui/dlove-gift-logo.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="1254" />
-  <meta property="og:image:height" content="1254" />
-  <meta property="og:image:alt" content="Biểu tượng hộp quà hồng DLove" />
-  <meta property="og:locale" content="vi_VN" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="DLove · Món quà nhỏ" />
-  <meta name="twitter:description" content="Một món quà nhỏ dành riêng cho bạn." />
-  <meta name="twitter:image" content="https://i.dlove.vn/assets/ui/dlove-gift-logo.png" />
-  <meta name="twitter:image:alt" content="Biểu tượng hộp quà hồng DLove" />
+  <link rel="icon" href="./assets/icons/heart.svg" type="image/svg+xml" />
   
-  <script type="module" crossorigin src="/19-11cuamt/assets/boysDay-W9gdqN0I.js"></script>
-  <link rel="modulepreload" crossorigin href="/19-11cuamt/assets/codeProtection-z-qAuAV-.js">
-  <link rel="modulepreload" crossorigin href="/19-11cuamt/assets/three-78T6yNuR.js">
-  <link rel="modulepreload" crossorigin href="/19-11cuamt/assets/fiber-Df1163d-.js">
-  <link rel="modulepreload" crossorigin href="/19-11cuamt/assets/templateConst-B6bl4cjm.js">
-  <link rel="modulepreload" crossorigin href="/19-11cuamt/assets/studioStorage-Bd8P3yNn.js">
-  <link rel="modulepreload" crossorigin href="/19-11cuamt/assets/envelopeText-DhveMt5J.js">
-  <link rel="modulepreload" crossorigin href="/19-11cuamt/assets/studioState-C3zC_ROJ.js">
-  <link rel="modulepreload" crossorigin href="/19-11cuamt/assets/boys-day-DJKWhlZR.js">
-  <link rel="modulepreload" crossorigin href="/19-11cuamt/assets/envelopePreview-31UlykVG.js">
-  <link rel="stylesheet" crossorigin href="/19-11cuamt/assets/boys-day-Cit_4ScV.css">
+  <script type="module" crossorigin src="./assets/boysDay-W9gdqN0I.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/codeProtection-z-qAuAV-.js">
+  <link rel="modulepreload" crossorigin href="./assets/three-78T6yNuR.js">
+  <link rel="modulepreload" crossorigin href="./assets/fiber-Df1163d-.js">
+  <link rel="modulepreload" crossorigin href="./assets/templateConst-B6bl4cjm.js">
+  <link rel="modulepreload" crossorigin href="./assets/studioState-C3zC_ROJ.js">
+  <link rel="modulepreload" crossorigin href="./assets/envelopePreview-31UlykVG.js">
+  <link rel="modulepreload" crossorigin href="./assets/boys-day-DJKWhlZR.js">
+  <link rel="modulepreload" crossorigin href="./assets/envelopeText-DhveMt5J.js">
+  <link rel="modulepreload" crossorigin href="./assets/HeadPhotoTool-CZBEEhWi.js">
+  <link rel="stylesheet" crossorigin href="./assets/HeadPhotoTool-DPtsRWzu.css">
+  <link rel="modulepreload" crossorigin href="./assets/matteEdit-BkwtqOlf.js">
+  <link rel="modulepreload" crossorigin href="./assets/studioStorage-Bd8P3yNn.js">
+  <link rel="modulepreload" crossorigin href="./assets/bouquetLayout-DSuCqh9V.js">
+  <link rel="modulepreload" crossorigin href="./assets/BoysDayApp-BTovse4c.js">
+  <link rel="stylesheet" crossorigin href="./assets/BoysDayApp-DWWYih8U.css">
+  <link rel="stylesheet" crossorigin href="./assets/boys-day-Cit_4ScV.css">
 </head>
-<script>
-  // Chặn mọi lệnh gọi API về server dlove và trả về dữ liệu trong mock-data.json
-  const _origFetch = window.fetch;
-  window.fetch = async function(resource, config) {
-    const url = typeof resource === 'string' ? resource : resource.url;
-    if (url.includes('dlove.vn') && !url.includes('cdn.dlove.vn')) {
-      return _origFetch('./mock-data.json');
-    }
-    return _origFetch(resource, config);
-  };
-</script>
 <body>
   <div id="root"></div>
 </body>
